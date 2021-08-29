@@ -1,0 +1,23 @@
+.flag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#country-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.country {
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
